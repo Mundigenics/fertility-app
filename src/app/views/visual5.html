@@ -1,0 +1,25 @@
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="" align="center">
+      <div>
+        <h1>Visual</h1>
+        <p class="lead">
+          <img src="" alt=""><br>
+          How wet was the tissue?
+        </p>
+        </div>
+        <div layout="row"> 
+          <span>Dry</span>
+          <md-slider flex class="md-primary" md-discrete ng-model="rating" step="1" min="1" max="10" aria-label="stretch-rating">
+          </md-slider>
+          <span>Wet</span>
+        </div>
+        <div flex layout-sm="column" layout-align="center center">
+        <md-button href="#/Sense" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>
