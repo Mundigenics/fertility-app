@@ -12,18 +12,28 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
-      .when('/Menstruation1', {
+      .when('/MensesVid', {
+        templateUrl: 'app/views/mensesVid.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
+      .when('/MensesFlow', {
         templateUrl: 'app/views/mensesFlow.html',
         controller: 'MainController',
         controllerAs: 'main'
       })
-      .when('/Menstruation2', {
+      .when('/MensesColour', {
         templateUrl: 'app/views/mensesColour.html',
         controller: 'MainController',
         controllerAs: 'main'
       })
-      .when('/Menstruation3', {
+      .when('/MensesSymptoms', {
         templateUrl: 'app/views/mensesSymptoms.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
+      .when('/VisualVid', {
+        templateUrl: 'app/views/visualVid.html',
         controller: 'MainController',
         controllerAs: 'main'
       })
@@ -97,6 +107,11 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
+      .when('/PartnerDetails', {
+        templateUrl: 'app/views/partnerDetails.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
       .when('/Intentions', {
         templateUrl: 'app/views/intentions.html',
         controller: 'MainController',
@@ -139,6 +154,31 @@
       })
       .when('/Contraception', {
         templateUrl: 'app/views/contraception.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
+      .when('/Infertility', {
+        templateUrl: 'app/views/infertility.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
+      .when('/Treatment', {
+        templateUrl: 'app/views/treatment.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
+      .when('/IVFTreatment', {
+        templateUrl: 'app/views/ivfTreatment.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
+      .when('/IVFTreatmentDetails', {
+        templateUrl: 'app/views/ivfTreatmentDetails.html',
+        controller: 'MainController',
+        controllerAs: 'main'
+      })
+      .when('/LetsGo', {
+        templateUrl: 'app/views/letsGo.html',
         controller: 'MainController',
         controllerAs: 'main'
       })

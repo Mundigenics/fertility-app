@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+@import url(//fonts.googleapis.com/css?family=Iceland:400);
 
 @font-face {
   font-family: 'Material Icons';
@@ -39,7 +39,7 @@
 }
 
 html {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Iceland', cursive;
 }
 
 [layout=row] {
@@ -65,9 +65,9 @@ section.jumbotron h1 {
 }
 
 .md-raised {
-  min-width: 125px;
-  width: 125px;
-  max-width: 125px;
+  min-width: 135px;
+  width: 135px;
+  max-width: 135px;
 }
 
 .md-input-container{

@@ -5,21 +5,25 @@
       <acme-navbar></acme-navbar>
     </header>
 
-    <section class="" align="center">
-      <div>
+        <section class="">
+      <div align="center">
         <h1>Visual</h1>
         <p class="lead">
           <img src="" alt=""><br>
           How wet was the tissue?
         </p>
-        </div>
-        <div layout="row"> 
-          <span>Dry</span>
-          <md-slider flex class="md-primary" md-discrete ng-model="rating" step="1" min="1" max="10" aria-label="stretch-rating">
+      </div>
+        <br/><br/>
+        <div layout="row">
+          Dry
+          <md-slider flex class="md-primary" md-discrete ng-model="rating1" step="1" min="0" max="10" aria-label="wetness-rating">
           </md-slider>
-          <span>Wet</span>
+          Wet
         </div>
-        <div flex layout-sm="column" layout-align="center center">
+      <div flex align="center">
         <md-button href="#/Sense" class="md-raised md-primary" ng-click="">Continue</md-button>
       </div>
+      <p></p>
     </section>
+
+   
