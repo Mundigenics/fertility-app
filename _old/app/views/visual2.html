@@ -1,0 +1,32 @@
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="">
+      <div align="center">
+        <h1>Visual</h1>
+        <p class="lead">
+          <img src="" alt=""><br>
+          Please indicate how many centimeters <br/>the mucus stretched:
+        </p>
+      </div>
+      <div layout="row">
+        <span align="left" align="row">Stretch (Cm)</span>
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp    
+        <spans>Scale</span>
+      </div>
+      <br/>
+      <div layout="row">
+        0
+        <md-slider flex class="md-primary" md-discrete ng-model="rating1" step="1" min="0" max="10" aria-label="stretch-rating">
+        </md-slider>
+        10
+      </div>
+      <br/><br/>
+      <div flex align="center">
+        <md-button href="#/Visual4" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>

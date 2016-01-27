@@ -1,0 +1,23 @@
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="" align="center">
+      <div>
+      <h1>Personal History</h1>
+        <p class="lead">
+          How many previous <br/> <strong>live births</strong> <i class="material-icons">info_outline</i> <br/> have you had:.
+        </p>
+        </div>
+        <div layout="column" layout-sm="column" align="center">
+          <i class="material-icons" ng-click="plusOne()">arrow_drop_up</i>
+          {{main.liveBirth}}
+          <i class="material-icons" ng-click="minusOne()">arrow_drop_down</i>       
+        </div>
+        <div flex layout-sm="column" layout-align="center center">
+        <md-button href="#/Miscarriage" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>

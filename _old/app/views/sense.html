@@ -1,0 +1,41 @@
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="" >
+      <div align="center">
+        <h1>Sensation</h1>
+        <p class="lead">
+          <img src="" alt=""><br>
+          Did you feel a slippery <br/>sensation when . . .
+        </p>
+        </div>
+        <div> 
+          <div align="left">
+            <span>Wiping &nbsp <i class="material-icons">info_outline</i></span>
+            <md-radio-group ng-model="data.group1" layout="row" align="center">
+              <md-radio-button flex aria-label="wiping-yes">Yes
+              </md-radio-button>
+              <md-radio-button flex aria-label="wiping-no">No
+              </md-radio-button>
+            </md-radio-group>
+          </div>
+        </div>
+        <div align="left">
+          <span>Walking <i class="material-icons">info_outline</i></span>
+          <md-radio-group ng-model="data.group2" layout="row" align="center">
+            <md-radio-button flex aria-label="wiping-yes">Yes
+              </md-radio-button>
+            <md-radio-button flex aria-label="wiping-no">No
+              </md-radio-button>
+          </md-radio-group>
+        </div>
+        <br/>
+        <br/>
+        <div flex layout-sm="column" align="center">
+          <md-button href="#/EnergyLevel" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>

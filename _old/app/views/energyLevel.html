@@ -1,0 +1,29 @@
+
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="" align="center">
+      <div>
+      <h1>Energy Levels</h1>
+        <p class="lead">
+          <img src="" alt=""><br>
+          Score your energy for the last <br/> month out of 10
+        </p>
+        </div>
+        <div align="left">
+          Energy Level
+          <div layout="row">
+            0
+            <md-slider flex class="md-primary" md-discrete ng-model="rating3" step="1" min="0" max="10" aria-label="energy-rating">
+            </md-slider>
+            10
+          </div>
+        </div>
+        <div flex layout-sm="column" layout-align="center center">
+        <md-button href="#/BreastCheck" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>

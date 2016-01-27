@@ -1,0 +1,37 @@
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="" align="center">
+      <div>
+        <h1>IVF Treatment</h1>
+        <p class="lead">
+          Please give some details about <br/>your previous fertility treatments:
+        </p>
+        <p>
+          Number of stimulated <br/>IVF cycles:
+        </p>
+          <div layout="column" layout-sm="column" align="center">
+            <i class="material-icons" ng-click="plusOne()">arrow_drop_up</i>
+            {{main.ivfCycles}} &nbsp Cycles
+            <i class="material-icons" ng-click="minusOne()">arrow_drop_down</i> 
+          </div>
+        <p>
+          Number of times Embryo <br/> Transfer was done:
+        </p>
+          <div layout="column" layout-sm="column" align="center">
+            <i class="material-icons" ng-click="plusOne()">arrow_drop_up</i>
+            {{main.ivfEmbryos}} &nbsp Times 
+            <i class="material-icons" ng-click="minusOne()">arrow_drop_down</i>
+          </div>
+      </div> 
+      <br/>
+      <div flex layout-sm="column" layout-align="center center">
+        <md-button href="#/LetsGo" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>
+
+

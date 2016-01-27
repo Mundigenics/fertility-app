@@ -1,0 +1,43 @@
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="">
+      <div align="center">
+        <h1>General Health</h1>
+        <p class="lead">
+          <img src="" alt=""><br>
+          If you have had any of the following, <br/>please rate the severity:
+        </p>
+      </div>
+        <span align="left">Bloating <i class="material-icons">info_outline</i> </span>
+        <br/><br/>
+        <div layout="row">
+          0
+          <md-slider flex class="md-primary" md-discrete ng-model="rating1" step="1" min="0" max="10" aria-label="pain-rating">
+          </md-slider>
+          10
+        </div>
+        Breast Tenderness <i class="material-icons">info_outline</i>
+        <br/><br/>
+        <div layout="row"> 
+          0
+          <md-slider flex class="md-primary" md-discrete ng-model="rating2" step="1" min="0" max="10" aria-label="consipation-rating">
+          </md-slider>
+          10
+        </div>
+        Mood Changes <i class="material-icons">info_outline</i>
+        <br/><br/>
+        <div layout="row">
+          0
+          <md-slider flex class="md-primary" md-discrete ng-model="rating3" step="1" min="0" max="10" aria-label="diarrhoea-rating">
+          </md-slider>
+          10
+        </div>
+      <div flex align="center">
+        <md-button href="#/Intercourse" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>

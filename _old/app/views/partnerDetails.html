@@ -1,0 +1,58 @@
+<div layout="vertical" layout-fill>
+
+  <md-content>
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="" align="center">
+      <div>
+        <h1>Partner's Details</h1>
+        <p class="lead">
+          <img src="" alt=""><br>
+          Please let us know the following <br/>details:
+        </p>
+      </div>
+        <div flex layout="column" layout-sm="column" layout-align="center">
+        <md-input-container ng-click="" ng-required><label>Partner's First Name</label>
+        <input>
+        </md-input-container>
+        <md-input-container ng-click=""><label>Partner's Surname</label>
+        <input>
+        </md-input-container>
+        Date of Birth
+      </div>
+       
+      <div flex layout="row" layout-sm="row" layout-align="center">
+        <md-input-container style="margin-right: 10px;">
+        <label>Day</label>
+        <md-select ng-model="main.selectedDay">
+          <md-optgroup label="days">
+            <md-option ng-repeat="day in main.days" ng-value="{{day}}">{{day}}</md-option>
+          </md-optgroup>
+        </md-select>
+      </md-input-container>
+      <md-input-container style="margin-right: 10px;">
+        <label>Month</label>
+        <md-select ng-model="main.selectedMonth">
+          <md-optgroup label="months">
+            <md-option ng-repeat="month in main.months" ng-value="month">{{month}}</md-option>
+          </md-optgroup>
+        </md-select>
+      </md-input-container>
+      <md-input-container style="margin-right: 10px;">
+        <label>Year</label>
+        <md-select ng-model="main.selectedYear">
+          <md-optgroup label="years">
+            <md-option ng-repeat="year in main.ageYears" ng-value="{{year}}">{{year}}</md-option>
+          </md-optgroup>
+        </md-select>
+      </md-input-container>
+    </div>
+      <div flex layout="column" layout-sm="column" layout-align="center">
+        <md-input-container ng-click="" ng-required><label>Partner's Email address:</label>
+        <input>
+        </md-input-container>
+        <md-button href="#/Intentions" class="md-raised md-primary" ng-click="">Continue</md-button>
+      </div>
+    </section>
