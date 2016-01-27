@@ -12,7 +12,8 @@ angular
   .module('fertilityAppApp', [
     'ngAnimate',
     'ngRoute',
-    'ngTouch'
+    'ngTouch',
+    'ngMaterial'
   ])
   .config(function ($routeProvider) {
     $routeProvider
